@@ -108,3 +108,40 @@
   font-size: 18px;
   color: white;
 }
+
+.projects {
+  background-color: #696767;
+  font-family: "Urbanist", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects h1 {
+  color: #e40c5c;
+  font-family: "Questrial", sans-serif;
+  padding: 150px 20px 10px 90px;
+  font-size: 90px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 170px;
+  margin-top: 20px;
+  margin-left: 450px;
+}
+.project-links a {
+  padding: 25px;
+  margin-bottom: 20px;
+  background-color: #e40c5c;
+  border: solid #bc0e4e;
+  border-radius: 20px;
+  color: white;
+  max-width: 700px;
+  max-height: 500px;
+  font-family: "Questrial", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
